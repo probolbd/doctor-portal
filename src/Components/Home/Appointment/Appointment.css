@@ -1,0 +1,37 @@
+.make-appointment {
+  margin-top: 50px;
+  background-image: url(../../../images/appointmentbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 420px;
+  width: 100%;
+  background-position: center center;
+}
+
+.make-appointment::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #41485c;
+  opacity: 0.9;
+  top: 0;
+}
+
+.make-appointment img {
+  height: 550px;
+  transform: translateY(-130px);
+}
+.appoint {
+  z-index: 10;
+}
+.appoint h5 {
+  color: #6acece;
+}
+.appoint button {
+  background-color: #10cfe4;
+  color: #fff;
+  font-weight: bold;
+}
